@@ -13,14 +13,20 @@ const Projects = () => {
             <ProjectsCard
               title = "Real Estate Website"
               src = {realEstate}
+              github = 'https://github.com/AhmadIbrahim2/real-estate'
+              website = 'https://real-estate-liard-one.vercel.app/'
             />
             <ProjectsCard
               title = "Weather App"
               src = {weather}
+              github = 'https://github.com/AhmadIbrahim2/weather-app'
+              website = 'https://weather-app-zeta-pearl.vercel.app/'
             />
             <ProjectsCard
               title = "Qoutes Generator"
               src = {advice}
+              github = 'https://github.com/AhmadIbrahim2/advice-generator'
+              website = 'https://advice-generator-ten-delta.vercel.app/'
             />
         </div>
     </section>

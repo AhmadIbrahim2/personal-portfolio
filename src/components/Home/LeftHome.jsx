@@ -93,14 +93,12 @@ const LeftHome = () => {
         </div>
       </div>
       <div className="flex gap-12">
-        <div className="w-[240px] h-16 bg-designColor text-gray-200  border-designColor text-2xl flex gap-3 items-center justify-center rounded-md shadow-shadowOne hover:bg-black hover:bg-opacity-25 hover:-translate-y-1 transition-all hover:text-white cursor-pointer duration-300">
-          <h2>Contact Me</h2>
-          <FiSend />
-        </div>
-        <div className="w-[310px] h-16 bg-black bg-opacity-25 text-gray-200  border-designColor text-2xl flex gap-3 items-center justify-center rounded-md shadow-shadowOne hover:bg-designColor hover:-translate-y-1 transition-all hover:text-white cursor-pointer duration-300">
-          <h2>Download Resume</h2>
-          <FiDownload /> 
-        </div>
+        <a href="mailto:ahmadribrahim0@gmail.com">
+          <div className="w-[240px] h-16 bg-designColor text-gray-200  border-designColor text-2xl flex gap-3 items-center justify-center rounded-md shadow-shadowOne hover:bg-black hover:bg-opacity-25 hover:-translate-y-1 transition-all hover:text-white cursor-pointer duration-300">
+            <h2>Contact Me</h2>
+            <FiSend />
+          </div>
+        </a>
       </div>
     </div>
   );
