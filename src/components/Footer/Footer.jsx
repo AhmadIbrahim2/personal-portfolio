@@ -16,7 +16,7 @@ import { SiTailwindcss, SiRedux } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div className="w-full py-20 h-auto border-b-[1px] border-b-black flex justify-center  gap-40">
+        <div className="w-full py-20 h-auto border-b-[1px] border-b-black flex flex-col lgl:flex-row lgl:gap-40 justify-between ">
             <div className="w-full h-full flex flex-col gap-6 py-6">
                 <img className="w-40" src={logo} alt="logo" />
                 <div className="flex gap-4">

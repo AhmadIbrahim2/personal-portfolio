@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='flex justify-center text-center'>
         <Title title={"VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"} des={"Recent projects"} />
         </div>
-        <div className='grid grid-cols-3 gap-14'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
             <ProjectsCard
               title = "Real Estate Website"
               src = {realEstate}
